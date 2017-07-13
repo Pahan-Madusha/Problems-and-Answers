@@ -1,5 +1,5 @@
 
-**EProblem**<br>
+**Problem**<br>
 You are given a tree (a simple connected graph with no cycles). The tree has 
 **```N```** nodes numbered from **```1```** to **```N```** and is rooted at node **```1```**.
 Find the maximum number of edges you can remove from the tree to get a 
