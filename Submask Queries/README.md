@@ -1,5 +1,4 @@
-##Problem - Submask Queries
-
+### Problem
 Consider an **```n-element```** set, _**```U = {1, 2, 3, ..., n}```.**_ Each subset _**```S ⊂ U```**_ is assigned a value, _**```val(S)```**_. Initially _**```val(S) = 0```**_ for all _**```S ⊂ U```**_.
 
 We have three types of queries:
@@ -11,7 +10,7 @@ in which set **```S```** is a binary string of length **```n```** where the inde
 <br>
 Given **```n```**, perform all **```m```** queries. For each query of type **```3```**, print the value of **```val(S)```** on a new line.
 
-####Input Format
+### Input Format
 
 The first line contains two space-separated integers describing the respective values of **```n```** (the size of set **```U```**) and **```m```**(the number of queries to perform). 
 Each of the **```m```** subsequent lines contains a query in the form:
@@ -22,17 +21,17 @@ Each of the **```m```** subsequent lines contains a query in the form:
 <br>
 where **```s```** is a binary string (i.e., zeroes and ones) of length **```n```** and the index of each 1-bit denotes the index of an element in **```U```** to include in subset **```S```**.
 
-####Constraints
+### Constraints
 
 * **```1 ≤ n ≤ 16```**
 * **```1 ≤ m ≤ 10^5```**
 * **```0 ≤ x ≤ 2^30 - 1```** for each query.
 
-####Output Format
+### Output Format
 
 For each query of type **3**, print the answer to the query (i.e., **```val(S)```**) on a new line.
 
-####Sample Input
+### Sample Input
 
  **```3 4```<br>
  ```1 3 110```<br>
@@ -40,12 +39,12 @@ For each query of type **3**, print the answer to the query (i.e., **```val(S)``
 ```2 1 011```<br>
 ```3 010```**<br>
 
-####Sample Output
+### Sample Output
 
  **```3```**
  **```2```**
  
-####Explanation
+### Explanation
 
 Initially, **```val(S) = 0```** for all **```S ⊂ U = {1, 2, 3}```**_. We perform the following sequence of queries:
 
